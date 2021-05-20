@@ -8,5 +8,4 @@ function gestionarFicheroXML(xmlDoc){
 		capaVacia.innerHTML = capaVacia.innerHTML + "<p class='izqda'>" + izqda[i].textContent + "</p>"
 	
 }
-
-	loadDocA("leerFicheroXML.xml","xml");
+loadDocA("leerFicheroXML.xml","xml");
