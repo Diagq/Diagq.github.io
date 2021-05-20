@@ -1,11 +1,6 @@
-conversacion{
-    display: flex;
-    background-color: lightblue;
-}
-
 .izqda{
     border: 1px black solid;
-    backbackground-color: lightgreen;
+    background-color: lightgreen;
 }
 
 .dcha{
