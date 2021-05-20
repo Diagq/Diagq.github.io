@@ -1,10 +1,12 @@
 .izqda{
     border: 1px black solid;
+    border-bottom-right-radius: 2%;
     background-color: lightgreen;
 }
 
 .dcha{
     text-align: end;
     border: 1px black solid;
+    border-bottom-right-radius: 2%;
     background-color: blue;
 }
