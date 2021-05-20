@@ -1,4 +1,3 @@
-  
 function loadDocA(fichero,tipo)
 {
     let http = new XMLHttpRequest(); //Se crea petición al servidor
