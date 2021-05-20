@@ -3,9 +3,9 @@ conversacion{
 }
 
 .izqda{
-
+align-self: flex-end;
 }
 
 .dcha{
-
+align-self: flex-end;
 }
