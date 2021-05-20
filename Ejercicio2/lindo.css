@@ -1,8 +1,10 @@
 .izqda{
     display: flex;
+    flex-direction: row;
 
 }
 
 .dcha{
     display: flex;
+    flex-direction: row-reverse;
 }
