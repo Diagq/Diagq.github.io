@@ -1,11 +1,15 @@
 conversacion{
     display: flex;
+    background-color: lightblue;
 }
 
 .izqda{
-    
+    border: 1px black solid;
+    backbackground-color: lightgreen;
 }
 
 .dcha{
     text-align: end;
+    border: 1px black solid;
+    background-color: blue;
 }
