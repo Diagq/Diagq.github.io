@@ -1,4 +1,4 @@
-  
+<a href="#" onclick="javascript:document.body.style.backgroundColor='2bfbff';
 function gestionarFicheroXML(xmlDoc){
 	let capaVacia = document.querySelector("#ficheroXML")
 	let dcha = xmlDoc.querySelectorAll("derecha")
