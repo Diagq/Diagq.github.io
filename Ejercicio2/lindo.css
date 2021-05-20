@@ -1,14 +1,11 @@
-.izqda{
+conversacion{
     display: flex;
-    flex-direction: row;
-    border: 1px red solid;
-    width: 50%;
+}
+
+.izqda{
 
 }
 
 .dcha{
-    display: flex;
-    flex-direction: row-reverse;
-    border: 1px blue solid;
-    width: 50%;
+
 }
