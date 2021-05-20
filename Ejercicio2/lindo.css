@@ -1,12 +1,13 @@
 .izqda{
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     border: 1px red solid;
 
 }
 
 .dcha{
-    display: flex;
+    display: inline-flex;
     flex-direction: row-reverse;
     border: 1px blue solid;
+    
 }
