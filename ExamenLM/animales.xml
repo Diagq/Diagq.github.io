@@ -1,0 +1,15 @@
+<animales>
+    <impar>
+        <especie>Leon</especie>
+        <tipo>Mamifero</tipo>
+        <nombre>Simba</nombre>
+        <edad>12</edad>
+    </impar>
+
+    <par>
+        <especie>Cocodrilo</especie>
+        <tipo>Lagarto</tipo>
+         <nombre>Jorge</nombre>
+        <edad>7</edad>
+    </par>
+</animales>
