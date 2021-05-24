@@ -1,9 +1,12 @@
   
 function gestionarFicheroXML(xmlDoc){
 	let capaVacia = document.querySelector("#ficheroXML")
-	let alumnos = xmlDoc.querySelectorAll("alumno")
-	for(let i=0; i<alumnos.length; i++)
-		capaVacia.innerHTML = capaVacia.innerHTML + "<p>" + alumnos[i].textContent + "</p>"	
+	let impares = xmlDoc.querySelectorAll("impar")
+	let pares = xmlDoc.querySelectorAll("par")
+	for(let i=0; i<impares.length&&pares.length; i++){
+		capaVacia.innerHTML = capaVacia.innerHTML + "<p class ='impar'>" + impares[i].textContent + "</p>"
+		capaVacia.innerHTML = capaVacia.innerHTML + "<p class ='par'>" + pares[i].textContent + "</p>"
+	}
 }
 
-	loadDocA("leerFicheroXML.xml","xml");
+	loadDocA("animales.xml","xml");
